@@ -1,14 +1,10 @@
 Automation of Bike Showroom (Client defined software)
 This project deals with the transaction criteria of Bike showroom. It is a bike store offering sales of different models of Honda bikes, also maintenance and repair service.​
-
 The purpose of this project is to override the problems prevailing in practicing manual system by the help of equipment and full-fledged computer software, fulfilling the user requirements that their valuable data and information can be stored for a longer period with easy accessing and manipulation. Moreover this system is designed for the particular need of the showroom to carry out operations in a smooth and effective manner.​
-Front end- ASP.Net​
 
-ASP.Net for front end​
-Back end-SQL Server​
-Operating system- Windows 
+Front end- ASP.Net​​, Back end-SQL Server​, Operating system- Windows. 
 ​
-Module  description​
+Module  description​.
 1.Login:​
 This module is used to login to the system by administrator and employee. Both must have to enter correct username and password to login to the system. If the user forgot the password then admin can provide new password.​
 Login as administrator:​
