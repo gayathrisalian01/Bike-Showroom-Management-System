@@ -1,0 +1,64 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img2.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.forgotpbox2 {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 550px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: gold;
+}
+  .btnsave, .txtnpass, .txtcpass, .btncancel ,.txtuser{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+ .txtnpass, .txtcpass ,.txtuser{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+.btnsave, .btncancel {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+    .btnsave:hover {
+        background-color: rgb(255,217,9);
+    }
+
+    .btncancel:hover {
+        background-color: rgb(255,217,9);
+    }

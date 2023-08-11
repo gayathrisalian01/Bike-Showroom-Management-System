@@ -1,0 +1,89 @@
+﻿
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)),url('wp3647894-black-bike-wallpapers.jpg');
+    background-size: cover;
+    
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.customwidth {
+    width: 100%;
+    height: 70px;
+    position:relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.96);
+    box-shadow: white;
+    
+}
+* {
+margin:0px;
+padding:0px;
+}
+
+#menu ul
+{
+    display:inline;
+list-style:none;
+}
+    #menu ul li {
+       
+        background-color:black;
+        border-color:black;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        float: left;
+        position: relative;
+        
+        font-size: 15px;
+       
+       
+        margin-top:4px;
+    }
+    #menu ul li a{
+        text-decoration:none;
+     
+        background-color:black;
+        border-color:black;
+        display:block;
+    }
+        #menu ul li a:hover {
+            background-color:black;
+            border-color: darkgoldenrod;
+          
+        }
+
+        #menu ul ul{
+            position:absolute;
+            display:none;
+            
+        }
+    #menu ul li > ul li {
+        
+        margin-top:5px;
+        background-color:black;
+        border-radius:20px;
+        border: solid 1px white;
+        margin-right:0px;
+        margin-left:0px;
+        width:200px;
+       
+   
+    }
+        #menu ul li:hover > ul {
+           
+            display: block;
+            border-radius: 20px;
+            border-color:darkgoldenrod;
+            
+        }
