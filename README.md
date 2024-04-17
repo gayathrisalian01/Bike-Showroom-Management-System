@@ -4,8 +4,8 @@ The purpose of this project is to override the problems prevailing in practicing
 
 Front end- ASP.Net​​, Back end-SQL Server​, Operating system- Windows. 
 ​
-Module  description​.
-1.Login:​
+Module  description​. <br>
+1. Login:​
 This module is used to login to the system by administrator and employee. Both must have to enter correct username and password to login to the system. If the user forgot the password then admin can provide new password.​
 Login as administrator:​
 Admin has access to all records, he/she has permission to create and delete the user (employee) account.​
@@ -20,17 +20,17 @@ It contains the details about the bikes that have to be ordered from the supplie
 Purchase Bill:​
 A purchase bill is given by the supplier to the showroom that can be used to prove that  the ordered bike was bought and the amount was paid.Bill details will be stored in the database.​
 
-3.Sales​
+3. Sales​
 Sales bill:​
 This is given to the customer on purchase  of bike. This detail will be stored in the database. All the customer details such as name , address etc will be stored.​
 Sales order:​
 In this module, sales order is processed.​
 
-4.Bike​
+4. Bike​
 Stock details:​
 This module provides details about the available stock.
 
-5.Report​
+5. Report​
 Sales report:​
 It gives the report of the sold bikes.​
 Stock report:​
